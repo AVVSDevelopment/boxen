@@ -13,10 +13,4 @@ class people::avvs {
   nodejs::version { '0.12': }
   nodejs::version { '4': }
 
-  # install the linter package
-  atom::package { 'linter': }
-
-  # install the monokai theme
-  atom::theme { 'monokai': }
-
 }
