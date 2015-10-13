@@ -17,5 +17,8 @@ class people::avvs {
   # install a node version
   nodejs::version { '0.12': }
   nodejs::version { '4': }
-
+  
+  class { 'vagrant':
+    completion => true,
+  }
 }
