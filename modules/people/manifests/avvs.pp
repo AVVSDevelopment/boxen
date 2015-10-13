@@ -3,6 +3,8 @@ class people::avvs {
   
   # from the stable channel
   include chrome
+  
+  include spotify
 
   # Set the global default node (auto-installs it if it can)
   class { 'nodejs::global':
