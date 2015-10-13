@@ -5,6 +5,8 @@ class people::avvs {
   include chrome
   
   include spotify
+  
+  include docker
 
   # Set the global default node (auto-installs it if it can)
   class { 'nodejs::global':
