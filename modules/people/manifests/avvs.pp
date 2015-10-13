@@ -1,5 +1,8 @@
 class people::avvs {
   include atom
+  
+  # from the stable channel
+  include chrome
 
   # Set the global default node (auto-installs it if it can)
   class { 'nodejs::global':
