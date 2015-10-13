@@ -61,6 +61,7 @@ github "xquartz",     "1.2.1"
 github "chrome",      "1.2.0"
 github "docker",      "0.9.0"
 github "spotify",     "1.0.2"
+github "vagrant",     "3.3.3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
