@@ -1,3 +1,6 @@
+# 4.1.2 https://github.com/OiNutter/node-build/commits/master
+"nodejs::build::ensure": '204fe3f2c312e45288e63ce3abaf2b99298cf6c5'
+
 # Version aliases, commonly used to bless a specific version
 # Use the "deeper" merge strategy, as with nodejs::version::env
 "nodejs::version::alias":
