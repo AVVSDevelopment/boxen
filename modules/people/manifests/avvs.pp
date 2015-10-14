@@ -21,4 +21,6 @@ class people::avvs {
   class { 'vagrant':
     completion => true,
   }
+  
+  include packer
 }
