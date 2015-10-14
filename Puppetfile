@@ -62,7 +62,7 @@ github "chrome",      "1.2.0"
 github "docker",      "0.9.0"
 github "spotify",     "1.0.2"
 github "vagrant",     "3.3.3"
-github "packer",      "0.6.1"
+github "packer",      "1.3.1", :repo => "AVVS/puppet-packer"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
