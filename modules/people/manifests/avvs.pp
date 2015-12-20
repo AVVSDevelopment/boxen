@@ -7,7 +7,7 @@ class people::avvs {
   include spotify
   
   # deprecated // use dockertoolbox
-  # include docker
+  include docker
 
   # Set the global default node (auto-installs it if it can)
   class { 'nodejs::global':
