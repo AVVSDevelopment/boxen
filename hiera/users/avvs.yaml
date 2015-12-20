@@ -1,7 +1,7 @@
 # 5.3.0 https://github.com/OiNutter/node-build/commits/master
 "nodejs::build::ensure": '206e816618cc1159a937cfdc7f8bfffcfe74b30e'
 
-"docker::build::ensure": 'daf5e77b189f98842d804e60be9b8c52a8b66418'
+"docker::config::ensure": 'daf5e77b189f98842d804e60be9b8c52a8b66418'
 
 # Version aliases, commonly used to bless a specific version
 # Use the "deeper" merge strategy, as with nodejs::version::env
