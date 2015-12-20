@@ -15,7 +15,7 @@ class people::avvs {
   docker::machine::version: "0.5.4"
   
   # The name of the local VM
-  docker::machinename: "local"
+  docker::machinename: "dev"
 
   # Set the global default node (auto-installs it if it can)
   class { 'nodejs::global':
